@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Minimal San Francisco Wave Forecast Script
+Minimal San Francisco Wave Forecast Script with Tide Information
 Fetches wave data from NOAA buoy station 46237 (San Francisco Bar)
+and tide data from NOAA Tides and Currents API
 """
 import requests
 from datetime import datetime
@@ -9,6 +10,7 @@ from datetime import datetime
 # Constants
 BUOY_ID = "46237"
 BUOY_NAME = "San Francisco Bar"
+TIDE_STATION = "9414290"  # San Francisco tide station
 DIRECTIONS = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", 
               "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"]
 
@@ -28,8 +30,8 @@ def format_value(value, unit="", is_direction=False):
     return f"{value} {unit}"
 
 # Main
-print(f"San Francisco Wave Forecast - Station {BUOY_ID} ({BUOY_NAME})")
-print("=" * 60)
+print(f"San Francisco Wave and Tide Forecast - Station {BUOY_ID} ({BUOY_NAME})")
+print("=" * 70)
 
 # Get current conditions
 print("\nFetching current sea conditions...")
@@ -84,5 +86,26 @@ try:
                 print(f"Wave Period: {format_value(data.get('SwP', 'N/A'), 'sec')} (Swell Period)")
 except Exception as e:
     print(f"Error fetching recent wave data: {e}")
+
+# Get tide data
+print("\nFetching tide data...")
+try:
+    tide_url = f"https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=today&station={TIDE_STATION}&product=predictions&datum=MLLW&time_zone=lst_ldt&units=english&format=json&interval=hilo"
+    response = requests.get(tide_url)
+    if response.status_code == 200:
+        tide_data = response.json().get('predictions', [])
+        if tide_data:
+            print("\n===== HIGH AND LOW TIDES TODAY =====")
+            for tide in tide_data:
+                tide_time = tide.get('t', 'Unknown')
+                tide_height = tide.get('v', 'Unknown')
+                tide_type = "High" if tide.get('type') == 'H' else "Low"
+                print(f"{tide_type} Tide: {tide_time}, {tide_height} ft")
+        else:
+            print("No tide data available.")
+    else:
+        print(f"Error fetching tide data: HTTP {response.status_code}")
+except Exception as e:
+    print(f"Error fetching tide data: {e}")
 
 print("\nNote: If data is showing as not available, it may be temporarily unavailable from NOAA.")
