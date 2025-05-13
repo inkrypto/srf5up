@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D5ECD94D504B74DA5616529 /* TideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938028A0AAACC158B049EC2B /* TideView.swift */; };
+		24C4CE19F68FB440B0D72926 /* BuoySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8AC273825F2CC0805D3A2 /* BuoySelectionView.swift */; };
+		26ADBF7AE0C88221B29027E7 /* TideStationSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDC3BE0F9BA4322AC0A5E8 /* TideStationSelectionView.swift */; };
+		324DC71632C74B59ABD72241 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7527FC89E42A633C1B23EC /* ForecastViewModel.swift */; };
+		569F315763932DBD8235AE1D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00B708D145B5659DE806FE7 /* Models.swift */; };
+		5ACCFDE8C2CE8E720BB484E7 /* DirectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F898A238F2E4F3AA90A35 /* DirectionHelper.swift */; };
+		5D2CB2BC2EFBBC8C0333AB8B /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56E5E8E55BF0529AB4FA2BE /* ForecastViewModel.swift */; };
+		671CD6724E1817141B771B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB840C7B9C711614873C677 /* Assets.xcassets */; };
+		67A0F3C6283AD7814434450B /* CurrentTideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F409D5F2725D05F654602673 /* CurrentTideView.swift */; };
+		7A5A9D863744392871F752EE /* WaveConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579DE0654EDB88CD461D6BE /* WaveConditionsView.swift */; };
+		9E26FB29043BD5D87559F3B1 /* SFWaveTidesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420551F68ED32DDA36D2540 /* SFWaveTidesApp.swift */; };
+		A17941D3403D37715C298BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12FF17C37046D6B13D28695 /* LaunchScreen.storyboard */; };
+		A1CDAB466DFF0833162B9632 /* NOAAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E502FEE644F86C45E3815150 /* NOAAService.swift */; };
+		A262566C67886FDDBDC9EF48 /* NOAAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94E3DBE7AFAE1FC458B264 /* NOAAService.swift */; };
+		AB36D53B767244547C2BEF4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F01BB8F85325664216B286B /* ContentView.swift */; };
+		B888AF6E5131A40ABCCA4660 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA07EE9FF484866946E96A7 /* ContentView.swift */; };
+		BFC4BB84CA56C6F3CAB175A9 /* SFWaveTidesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92A5EEE32143207A458116 /* SFWaveTidesApp.swift */; };
+		C4B281A6E9133491E0D3ED6A /* CurrentConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA4FEC9983EA8C1116F8F29 /* CurrentConditionsView.swift */; };
+		CF1F4C28ECD868411EC1648A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79D60CF7ABD7ADC630CD041 /* ComplicationController.swift */; };
+		DE3C6F341467C04E0CE55065 /* TideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A35EA089AC976904DB56F1 /* TideView.swift */; };
+		E39011033A2B89F8D384964F /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4A0854AD14FD6DCD096CA /* ForecastView.swift */; };
+		E97DC82F8E6C16D489FD8700 /* BuoySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C1F276978033913A7CDB2 /* BuoySelectionView.swift */; };
+		F03E56C782F3215C8EB920EE /* BuoyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E21882024CCFC50A2B8C16E /* BuoyModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BB8AC273825F2CC0805D3A2 /* BuoySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuoySelectionView.swift; sourceTree = "<group>"; };
+		24BDC3BE0F9BA4322AC0A5E8 /* TideStationSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideStationSelectionView.swift; sourceTree = "<group>"; };
+		2E21882024CCFC50A2B8C16E /* BuoyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuoyModel.swift; sourceTree = "<group>"; };
+		3F01BB8F85325664216B286B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F3C1F276978033913A7CDB2 /* BuoySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuoySelectionView.swift; sourceTree = "<group>"; };
+		3FB840C7B9C711614873C677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5328A1CBB64739241201A929 /* SFWaveTidesWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFWaveTidesWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A4A0854AD14FD6DCD096CA /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		6AA4FEC9983EA8C1116F8F29 /* CurrentConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentConditionsView.swift; sourceTree = "<group>"; };
+		7A7527FC89E42A633C1B23EC /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
+		938028A0AAACC158B049EC2B /* TideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideView.swift; sourceTree = "<group>"; };
+		B00B708D145B5659DE806FE7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B420551F68ED32DDA36D2540 /* SFWaveTidesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFWaveTidesApp.swift; sourceTree = "<group>"; };
+		C579DE0654EDB88CD461D6BE /* WaveConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveConditionsView.swift; sourceTree = "<group>"; };
+		C5F3466BB6880057749ACCAD /* SFWaveTides.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SFWaveTides.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A35EA089AC976904DB56F1 /* TideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideView.swift; sourceTree = "<group>"; };
+		D7606EB4FB0536D13D77EDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DCA07EE9FF484866946E96A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E502FEE644F86C45E3815150 /* NOAAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAAService.swift; sourceTree = "<group>"; };
+		EA92A5EEE32143207A458116 /* SFWaveTidesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFWaveTidesApp.swift; sourceTree = "<group>"; };
+		EB94E3DBE7AFAE1FC458B264 /* NOAAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAAService.swift; sourceTree = "<group>"; };
+		F02F898A238F2E4F3AA90A35 /* DirectionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionHelper.swift; sourceTree = "<group>"; };
+		F12FF17C37046D6B13D28695 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F409D5F2725D05F654602673 /* CurrentTideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTideView.swift; sourceTree = "<group>"; };
+		F56E5E8E55BF0529AB4FA2BE /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
+		F79D60CF7ABD7ADC630CD041 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		062185616C4635B6C0D32927 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E502FEE644F86C45E3815150 /* NOAAService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4A61980C4ADDFDF9E4DFAB4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5F3466BB6880057749ACCAD /* SFWaveTides.app */,
+				5328A1CBB64739241201A929 /* SFWaveTidesWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F805371AB6A5856D80ABEDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E21882024CCFC50A2B8C16E /* BuoyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A4A72C8ED779F66BBB14251 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				0BB8AC273825F2CC0805D3A2 /* BuoySelectionView.swift */,
+				F79D60CF7ABD7ADC630CD041 /* ComplicationController.swift */,
+				DCA07EE9FF484866946E96A7 /* ContentView.swift */,
+				EA92A5EEE32143207A458116 /* SFWaveTidesApp.swift */,
+				D2A35EA089AC976904DB56F1 /* TideView.swift */,
+				C579DE0654EDB88CD461D6BE /* WaveConditionsView.swift */,
+			);
+			name = Watch;
+			path = SFWaveTidesWatch/Watch;
+			sourceTree = "<group>";
+		};
+		92CB4BAC112A27F6C67B7762 /* SFWaveTides */ = {
+			isa = PBXGroup;
+			children = (
+				3FB840C7B9C711614873C677 /* Assets.xcassets */,
+				D7606EB4FB0536D13D77EDD3 /* Info.plist */,
+				F12FF17C37046D6B13D28695 /* LaunchScreen.storyboard */,
+				B420551F68ED32DDA36D2540 /* SFWaveTidesApp.swift */,
+				E1A273AF34FCCD137C10B40A /* Helpers */,
+				5F805371AB6A5856D80ABEDF /* Models */,
+				062185616C4635B6C0D32927 /* Services */,
+				B0A5F599F217BFAE7321DA4D /* ViewModels */,
+				E36C3A975E523976F33F7A19 /* Views */,
+			);
+			path = SFWaveTides;
+			sourceTree = "<group>";
+		};
+		B0A5F599F217BFAE7321DA4D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7A7527FC89E42A633C1B23EC /* ForecastViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BBC98B0804794BDA7313CDDB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F56E5E8E55BF0529AB4FA2BE /* ForecastViewModel.swift */,
+				B00B708D145B5659DE806FE7 /* Models.swift */,
+				EB94E3DBE7AFAE1FC458B264 /* NOAAService.swift */,
+			);
+			name = Shared;
+			path = SFWaveTidesWatch/Shared;
+			sourceTree = "<group>";
+		};
+		CDB97576305466099CCA22B2 = {
+			isa = PBXGroup;
+			children = (
+				92CB4BAC112A27F6C67B7762 /* SFWaveTides */,
+				BBC98B0804794BDA7313CDDB /* Shared */,
+				7A4A72C8ED779F66BBB14251 /* Watch */,
+				4A61980C4ADDFDF9E4DFAB4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1A273AF34FCCD137C10B40A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F02F898A238F2E4F3AA90A35 /* DirectionHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E36C3A975E523976F33F7A19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C1F276978033913A7CDB2 /* BuoySelectionView.swift */,
+				3F01BB8F85325664216B286B /* ContentView.swift */,
+				6AA4FEC9983EA8C1116F8F29 /* CurrentConditionsView.swift */,
+				F409D5F2725D05F654602673 /* CurrentTideView.swift */,
+				59A4A0854AD14FD6DCD096CA /* ForecastView.swift */,
+				24BDC3BE0F9BA4322AC0A5E8 /* TideStationSelectionView.swift */,
+				938028A0AAACC158B049EC2B /* TideView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F78A235C3C15525C86CF05 /* SFWaveTides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299A2589E6AADA2A4C507999 /* Build configuration list for PBXNativeTarget "SFWaveTides" */;
+			buildPhases = (
+				E4D905A15EAAE3E7456976F6 /* Sources */,
+				2737AC4151FC4672382704D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFWaveTides;
+			packageProductDependencies = (
+			);
+			productName = SFWaveTides;
+			productReference = C5F3466BB6880057749ACCAD /* SFWaveTides.app */;
+			productType = "com.apple.product-type.application";
+		};
+		379FD861869282BE019125E1 /* SFWaveTidesWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF518BB4AF673615173B83D /* Build configuration list for PBXNativeTarget "SFWaveTidesWatch" */;
+			buildPhases = (
+				4F32DA77762FD4006963A613 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFWaveTidesWatch;
+			packageProductDependencies = (
+			);
+			productName = SFWaveTidesWatch;
+			productReference = 5328A1CBB64739241201A929 /* SFWaveTidesWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC7F5F6E017C17C40F0BA9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 074FC31207368CDD1A6F8160 /* Build configuration list for PBXProject "SFWaveTides" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CDB97576305466099CCA22B2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 54;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F78A235C3C15525C86CF05 /* SFWaveTides */,
+				379FD861869282BE019125E1 /* SFWaveTidesWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2737AC4151FC4672382704D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671CD6724E1817141B771B88 /* Assets.xcassets in Resources */,
+				A17941D3403D37715C298BD3 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F32DA77762FD4006963A613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C4CE19F68FB440B0D72926 /* BuoySelectionView.swift in Sources */,
+				CF1F4C28ECD868411EC1648A /* ComplicationController.swift in Sources */,
+				B888AF6E5131A40ABCCA4660 /* ContentView.swift in Sources */,
+				5D2CB2BC2EFBBC8C0333AB8B /* ForecastViewModel.swift in Sources */,
+				569F315763932DBD8235AE1D /* Models.swift in Sources */,
+				A262566C67886FDDBDC9EF48 /* NOAAService.swift in Sources */,
+				BFC4BB84CA56C6F3CAB175A9 /* SFWaveTidesApp.swift in Sources */,
+				DE3C6F341467C04E0CE55065 /* TideView.swift in Sources */,
+				7A5A9D863744392871F752EE /* WaveConditionsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D905A15EAAE3E7456976F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03E56C782F3215C8EB920EE /* BuoyModel.swift in Sources */,
+				E97DC82F8E6C16D489FD8700 /* BuoySelectionView.swift in Sources */,
+				AB36D53B767244547C2BEF4B /* ContentView.swift in Sources */,
+				C4B281A6E9133491E0D3ED6A /* CurrentConditionsView.swift in Sources */,
+				67A0F3C6283AD7814434450B /* CurrentTideView.swift in Sources */,
+				5ACCFDE8C2CE8E720BB484E7 /* DirectionHelper.swift in Sources */,
+				E39011033A2B89F8D384964F /* ForecastView.swift in Sources */,
+				324DC71632C74B59ABD72241 /* ForecastViewModel.swift in Sources */,
+				A1CDAB466DFF0833162B9632 /* NOAAService.swift in Sources */,
+				9E26FB29043BD5D87559F3B1 /* SFWaveTidesApp.swift in Sources */,
+				26ADBF7AE0C88221B29027E7 /* TideStationSelectionView.swift in Sources */,
+				1D5ECD94D504B74DA5616529 /* TideView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E7A897A1298789D414DCD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SFWaveTides/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SFWaveTides;
+				PRODUCT_NAME = SFWaveTides;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1807002FD2B2AD69FBA376B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		520EA0E76F1FC498CE72B835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SFWaveTides/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SFWaveTides;
+				PRODUCT_NAME = SFWaveTides;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79D0BFDD5AE12D640C08CA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SFWaveTides.watchkitapp;
+				PRODUCT_NAME = SFWaveTidesWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		9457D147D86C6ED037413764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SFWaveTides.watchkitapp;
+				PRODUCT_NAME = SFWaveTidesWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		CB6D818C32EF9D0FE8B86EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074FC31207368CDD1A6F8160 /* Build configuration list for PBXProject "SFWaveTides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1807002FD2B2AD69FBA376B8 /* Debug */,
+				CB6D818C32EF9D0FE8B86EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		299A2589E6AADA2A4C507999 /* Build configuration list for PBXNativeTarget "SFWaveTides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520EA0E76F1FC498CE72B835 /* Debug */,
+				0E7A897A1298789D414DCD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6DF518BB4AF673615173B83D /* Build configuration list for PBXNativeTarget "SFWaveTidesWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9457D147D86C6ED037413764 /* Debug */,
+				79D0BFDD5AE12D640C08CA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEC7F5F6E017C17C40F0BA9E /* Project object */;
+}

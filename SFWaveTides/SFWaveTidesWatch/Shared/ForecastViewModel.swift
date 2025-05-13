@@ -12,6 +12,9 @@ class ForecastViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var errorMessage: String?
     
+    // UserDefaults keys
+    private let selectedBuoyIdKey = "watchSelectedBuoyId"
+    
     var currentTide: TideData? {
         getCurrentTide()
     }
@@ -21,8 +24,20 @@ class ForecastViewModel: ObservableObject {
     }
     
     init() {
-        // Initially load data for the default buoy
+        // Load saved buoy or default to station 46237 (San Francisco Bar)
+        loadSavedBuoy()
+        
+        // Initially load data for the selected buoy
         loadData()
+    }
+    
+    private func loadSavedBuoy() {
+        if let savedBuoyId = UserDefaults.standard.string(forKey: selectedBuoyIdKey) {
+            selectedBuoy = Buoy.getBuoyById(savedBuoyId)
+        } else {
+            // Default to station 46237 (San Francisco Bar) if no saved preference
+            selectedBuoy = Buoy.defaultBuoy
+        }
     }
     
     func loadData() {
@@ -51,6 +66,10 @@ class ForecastViewModel: ObservableObject {
     
     func selectBuoy(_ buoy: Buoy) {
         selectedBuoy = buoy
+        
+        // Save selection to UserDefaults
+        UserDefaults.standard.set(buoy.id, forKey: selectedBuoyIdKey)
+        
         loadData()
     }
     

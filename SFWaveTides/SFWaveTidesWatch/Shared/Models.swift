@@ -17,8 +17,13 @@ struct Buoy: Identifiable, Codable, Hashable {
     
     static let sfStationID = "9414290" // San Francisco tide station
     
-    // Default to San Francisco Bar buoy
+    // Default to San Francisco Bar buoy (46237) as specified in sf_wave_forecast_minimal.py
     static let defaultBuoy = Buoy(id: "46237", name: "San Francisco Bar", latitude: 37.786, longitude: -122.634)
+    
+    // Get buoy by ID, or return default if not found
+    static func getBuoyById(_ id: String) -> Buoy {
+        return sfBuoys.first(where: { $0.id == id }) ?? defaultBuoy
+    }
 }
 
 // MARK: - Buoy Data Model
